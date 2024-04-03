@@ -1,21 +1,26 @@
 This repository contains code for detecting violence scenes in motion pictures using Convolutional Neural Networks (CNNs). The goal of this project is to develop a model that can accurately identify violent scenes in videos, which can be useful for content moderation, parental controls, and other applications.
 
 Dataset
+
 The dataset used for training and testing the model is not included in this repository due to its size and licensing restrictions. However, you can obtain similar datasets from various sources such as academic repositories or by collecting your own dataset.
 
 Requirements
+
 Python 3
 TensorFlow
 Keras
 OpenCV
 NumPy
 Matplotlib
+
 Install the dependencies using the following command:
+
 
 bash
 Copy code
 pip install -r requirements.txt
 Usage
+
 Data Preparation: Organize your dataset into two folders: violence and non_violence, containing videos labeled accordingly.
 
 Data Preprocessing: Preprocess the videos to extract frames and generate training data.
