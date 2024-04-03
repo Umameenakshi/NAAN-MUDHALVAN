@@ -32,6 +32,7 @@ Model Evaluation: Evaluate the trained model's performance on a separate test se
 Inference: Use the trained model to detect violence scenes in new videos.
 
 Code Structure
+
 data_preparation.py: Script for preprocessing the video data.
 model.py: Defines the CNN architecture.
 train.py: Script for training the model.
@@ -39,12 +40,15 @@ evaluate.py: Script for evaluating the model.
 inference.py: Script for performing inference on new videos.
 utils.py: Utility functions.
 Contributing
+
 Contributions are welcome! If you have any suggestions, enhancements, or bug fixes, feel free to open an issue or create a pull request.
 
 License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
+
 This project was inspired by the work of [cite relevant papers or projects here].
 Special thanks to [mention any contributors or resources here].
 
